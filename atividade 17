@@ -1,0 +1,10 @@
+#declaração de variaveis
+tempo_da_viagem:float=0
+velocidade_media:float=0
+#inicio
+velocidade_media=float(input("!coloque a velocidade em km/h,Digite a velocidade:"))
+tempo_da_viagem=float(input("!colocar o tempo em horas,Digite a tempo de viagem:"))
+distancia_total=velocidade_media*tempo_da_viagem
+litros_gastos=distancia_total/12
+print("Aqui esta a quantidade de litros gastos",litros_gastos)
+#fim

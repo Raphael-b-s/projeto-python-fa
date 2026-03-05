@@ -1,0 +1,9 @@
+#declaração de variaveis
+a:float=0
+b:float=0
+#inicio
+a=float(input("Digite o seu primeiro valor:"))
+b=float(input("Digite o seu segundo valor:"))
+resultado=(a**2+b**2)
+print("Resultado:",resultado)
+#fim

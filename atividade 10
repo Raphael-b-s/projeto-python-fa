@@ -1,0 +1,10 @@
+#declaração de variaveis
+a:float=0
+b:float=0
+#inicio
+comentario_curioso=(input("!favor se ver essa mensagem,lembre de caso for por numero com virgula coloque ponto,aperte qualquer tecla para continuar"))
+a=float(input("Digite o seu primeiro valor:"))
+b=float(input("Digite o seu segundo valor:"))
+resultado=(a-b)
+print("Resultado:",resultado)
+#fim

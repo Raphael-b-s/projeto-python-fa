@@ -1,0 +1,15 @@
+#declaração de variaveis
+a:float=0
+b:float=0
+c:float=0
+#inicio
+a=float(input("Digite o valor de a:"))
+b=float(input("Digite o valor de b:"))
+c=float(input("Digite o valor de c:"))
+delta=(b**2-4*a*c)
+print("resultado de delta:",delta)
+primeira_v=(-b+delta**0.5)/(2*a)
+segunda_v=(-b-delta**0.5)/(2*a)
+print("resultado de x1:",primeira_v)
+print("resultado de x2:",segunda_v)
+#fim

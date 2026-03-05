@@ -1,0 +1,11 @@
+#declaração de variaveis
+Comprimento:float=0
+Largura:float=0
+Altura:float=0
+#inicio
+Comprimento=float(input("Digite o valor do comprimento:"))
+Largura=float(input("Digite o valor da Largura:"))
+Altura=float(input("Digite o valor da Altura:"))
+Volume=(Comprimento*Largura*Altura)
+print("Resultado do Volume de um paralelepipedo:",Volume)
+#fim

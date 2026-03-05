@@ -1,0 +1,8 @@
+#declaração de variaveis
+alimento:float=0
+#inicio
+alimento=float(input("Digite a quantidade em quilos do alimento:"))
+quantidadeG=(alimento*1000)
+resultado=(quantidadeG/50)
+print("ele vai durar por esses dias:",resultado)
+#fim

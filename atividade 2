@@ -1,0 +1,9 @@
+#declaração de variavel
+salario_pre:int=0
+reajuste:int=0
+#inicio
+salario_pre=int(input("fale o valor do salario:"))
+reajuste=1.15
+salario_pos=(salario_pre*reajuste)
+print ("salario reajustado:",salario_pos)
+#fim

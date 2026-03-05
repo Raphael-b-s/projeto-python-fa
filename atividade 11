@@ -1,0 +1,8 @@
+#declaração de variaveis
+raio:float=0
+pi:float=3.14
+#inicio
+raio=float(input("Digite o valor do raio:"))
+comprimeto=(2*pi*raio)
+print("Resultado para o comprimento da circunferencia:",comprimeto)
+#fim

@@ -1,0 +1,9 @@
+#Declaração de variaveis
+cateto1:float=0
+cateto2:float=0
+#inicio
+cateto1=float(input("Digite o valor do primeiro cateto:"))
+cateto2=float(input("Digite o valor do segundo cateto:"))
+resultado=(cateto1**2+cateto2**2)**0.5
+print("A hipotenusa é:",resultado)
+#fim

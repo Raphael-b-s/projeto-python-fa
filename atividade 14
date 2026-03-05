@@ -1,0 +1,9 @@
+#declaração de variaveis
+angulo_1:float=0
+angulo_2:float=0
+#inicio
+angulo_1=float(input("Digite o valor do primeiro angulo:"))
+angulo_2=float(input("Digite o valor do segundo angulo:"))
+angulo_3=180-(angulo_1+angulo_2)
+print("Aqui esta o angulo 3:",angulo_3)
+#fim

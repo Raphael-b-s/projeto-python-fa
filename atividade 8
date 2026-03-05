@@ -1,0 +1,9 @@
+#declaração de variaveis
+Deposito_poupança_pre:float=0
+Aplicação:float=0
+#inicio
+Deposito_poupança_pre=int(input("Digite seu deposito atual:"))
+Aplicação=1.013
+Deposito_poupança_pos=(Deposito_poupança_pre*Aplicação)
+print("Aqui esta o resultado da sua aplicação apos 1 mes:",Deposito_poupança_pos)
+#fim

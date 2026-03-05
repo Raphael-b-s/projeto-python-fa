@@ -1,0 +1,11 @@
+#declaração de variavel
+nascimento:float=0
+ano_atual:float=0
+#inicio
+nascimento=float(input("Digite a idade de nascimento:"))
+ano_atual=float(input("Digite o ano atual:"))
+idade_atual=(ano_atual-nascimento)
+print("Aqui esta sua idade atual:",idade_atual)
+idade17anos_depois=(idade_atual+17)
+print("Aqui esta sua idade depois de 17 anos:",idade17anos_depois)
+#fim

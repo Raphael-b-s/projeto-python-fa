@@ -1,0 +1,9 @@
+#declação de variaveis
+base:float=0
+altura:float=0
+#inicio
+base=float(input("digite o valor da base:"))
+altura=float(input("digite o valor da altura:"))
+area=(base*altura/2)
+print("area do triangulo:",area)
+#fim

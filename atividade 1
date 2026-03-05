@@ -1,0 +1,7 @@
+#declaração de variaveis
+lado:float=0
+#inicio
+lado=float(input("digite o valor do lado:"))
+area=(lado*lado)
+print("aqui esta o resultado:",area)
+#fim

@@ -1,0 +1,18 @@
+#declaração de variaveis
+horas_trabalhadas:float=0
+valor_por_hora:float=0
+percentual_de_desconto:float=0
+numero_de_descendentes:float=0
+#inicio
+percentual_de_desconto=float(input("Digite o valor do desconto,!não colocar o simbolo de porcentagem:"))
+numero_de_descendentes=float(input("Digite a quantidade de dependentes:"))
+horas_trabalhadas=float(input("Digite o total de horas trabalhadas:"))
+valor_por_hora=float(input("Digite o valor por hora:"))
+salario_pre=(horas_trabalhadas*valor_por_hora)
+print("Esse é o salario bruto:",salario_pre)
+desconto=salario_pre*percentual_de_desconto/100
+salario_pos=(salario_pre-desconto)
+valor_ajustado=(numero_de_descendentes*100)
+salario_final=(salario_pos+valor_ajustado)
+print("Esse é o salario a receber:",salario_final)
+#fim

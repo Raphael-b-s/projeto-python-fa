@@ -1,0 +1,11 @@
+#declaração de variaveis
+x:float=0
+y:float=0
+c:float=0
+#inicio
+x=float(input("Digite o valor para x:"))
+y=float(input("Digite o valor y:"))
+c=y
+y=x
+print("Aqui esta os valores trocados:",c,y)
+#fim

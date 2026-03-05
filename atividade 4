@@ -1,0 +1,7 @@
+#declaração de variaveis
+Celsius:float=0
+#inicio
+Celsius=float(input("digite o valor em celsius:"))
+fahrenheit=(9*Celsius+160)/5
+print("valor em fahrenheit",fahrenheit)
+#fim
